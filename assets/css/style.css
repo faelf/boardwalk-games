@@ -65,6 +65,46 @@ header .lead {
     margin-bottom: 1.5rem;
 }
 
+/* New Games */
+#new-games .card, #fav-games .card {
+    border: none;
+}
+
+#new-games, #new-games *, #fav-games, #fav-games * {
+    border-radius: 0px;
+}
+
+#contact {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding-bottom: 3rem;
+
+}
+
+#contact h2 {
+    color: #fff;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+}
+
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
