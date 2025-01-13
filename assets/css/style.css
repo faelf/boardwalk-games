@@ -91,6 +91,15 @@ header .lead {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+.discount {
+    background-color: var(--highlight-color);
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
 /* New Games */
 #new-games .card, #fav-games .card {
     border: none;
